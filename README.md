@@ -1,6 +1,11 @@
 # TAO_Yolo_V4
 ### This is a object detection demo using my own COCO datasets
-#### I used docker TAO image with Ubuntu X86-64 Nvidia 3080 to train a Yolo V4 tiny model for my airpods
+
+#### we need the nvidia official TAO .zip file
+$ wget --content-disposition https://api.ngc.nvidia.com/v2/resources/nvidia/tao/cv_samples/versions/v1.4.0/zip -O cv_samples_v1.4.0.zip
+
+#### I used the TAO (built-in docker image) with Ubuntu X86-64 Nvidia 3080 to train a Yolo V4 tiny model for my airpods
+
 ### For environment
 #### Install docker-ce
 
